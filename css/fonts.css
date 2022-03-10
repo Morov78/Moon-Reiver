@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "FuturaPT";
+  src: url("../fonts/FuturaPTLight/FuturaPT-Light.eot");
+  src: local("Futura PT Light"), local("FuturaPT-Light"),
+    url("../fonts/FuturaPTLight/FuturaPT-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FuturaPTLight/FuturaPT-Light.woff2") format("woff2"),
+    url("../fonts/FuturaPTLight/FuturaPT-Light.woff") format("woff"),
+    url("../fonts/FuturaPTLight/FuturaPT-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("../fonts/FuturaPTBook/FuturaPT-Book.eot");
+  src: local("Futura PT Book"), local("FuturaPT-Book"),
+    url("../fonts/FuturaPTBook/FuturaPT-Book.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FuturaPTBook/FuturaPT-Book.woff2") format("woff2"),
+    url("../fonts/FuturaPTBook/FuturaPT-Book.woff") format("woff"),
+    url("../fonts/FuturaPTBook/FuturaPT-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("../fonts/FuturaPTMedium/FuturaPT-Medium.eot");
+  src: local("Futura PT Medium"), local("FuturaPT-Medium"),
+    url("../fonts/FuturaPTMedium/FuturaPT-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FuturaPTMedium/FuturaPT-Medium.woff2") format("woff2"),
+    url("../fonts/FuturaPTMedium/FuturaPT-Medium.woff") format("woff"),
+    url("../fonts/FuturaPTMedium/FuturaPT-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("../fonts/FuturaPTDemi/FuturaPT-Demi.eot");
+  src: local("Futura PT Demi"), local("FuturaPT-Demi"),
+    url("../fonts/FuturaPTDemi/FuturaPT-Demi.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FuturaPTDemi/FuturaPT-Demi.woff2") format("woff2"),
+    url("../fonts/FuturaPTDemi/FuturaPT-Demi.woff") format("woff"),
+    url("../fonts/FuturaPTDemi/FuturaPT-Demi.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+/* 
+@font-face {
+  font-family: "SegoeUI";
+  src: url("../fonts/SegoeUI-Light/SegoeUI-Light.eot");
+  src: local("Segoe UI Light"), local("SegoeUI-Light"),
+    url("../fonts/SegoeUI-Light/SegoeUI-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/SegoeUI-Light/SegoeUI-Light.woff2") format("woff2"),
+    url("../fonts/SegoeUI-Light/SegoeUI-Light.woff") format("woff"),
+    url("../fonts/SegoeUI-Light/SegoeUI-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SegoeUI";
+  src: url("../fonts/SegoeUI/SegoeUI.eot");
+  src: local("Segoe UI"), local("SegoeUI"),
+    url("../fonts/SegoeUI/SegoeUI.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/SegoeUI/SegoeUI.woff2") format("woff2"),
+    url("../fonts/SegoeUI/SegoeUI.woff") format("woff"),
+    url("../fonts/SegoeUI/SegoeUI.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SegoeUI";
+  src: url("../fonts/SegoeUIItalic/SegoeUI-Italic.eot");
+  src: local("Segoe UI Italic"), local("SegoeUI-Italic"),
+    url("../fonts/SegoeUIItalic/SegoeUI-Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/SegoeUIItalic/SegoeUI-Italic.woff2") format("woff2"),
+    url("../fonts/SegoeUIItalic/SegoeUI-Italic.woff") format("woff"),
+    url("../fonts/SegoeUIItalic/SegoeUI-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+} */

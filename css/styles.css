@@ -1,0 +1,351 @@
+:root {
+  /* font Futura PT */
+  --font-futura: futuraPT;
+  /* font SegoiUI */
+  --font-SegoeUI: "Segoe UI";
+  /* font Forum */
+  --font-Forum: "Forum";
+
+  --linegradient-header-hero: to right, #ffffff, #ffffff 60%, #272727 60%;
+
+  /* calc(((vw-1440)/2+1440)*0.6)
+  FFFFFF   272727  656565  757575   E2B67A   EDEDED   EFC58B
+      959595  000000   A6A6A6   C4C4C4   E7E7E7 FFFFFF40%
+  272727 40% RADIANT  676767  58% RADIANT*/
+  /* основний колір тексту */
+  --color-primary-text: #ffffff;
+  /* другорядний колір тексту */
+  --color-second-text: #272727;
+  /* колір тексту ... */
+  --color-third-text: #c2c2c2;
+  --color-price: #efc58b;
+}
+body {
+  font-family: var(--font-futura), sans-serif;
+  font-weight: 400;
+
+  font-size: 18px;
+  letter-spacing: 0.03rem;
+  color: var(--color-primary-text);
+  background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-weight: 400;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+
+.container {
+  width: 1440px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+/* header */
+
+.header-container {
+  background-image: linear-gradient(var(--linegradient-header-hero));
+  padding-top: 60px;
+  padding-left: 160px;
+  padding-right: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-list {
+  display: flex;
+}
+.header-item {
+  width: 24px;
+  height: 22px;
+  background-color: aqua;
+}
+
+.header-item:nth-child() {
+  margin-right: 10px;
+}
+.header-item:nth-child(3) {
+  margin-right: 10px;
+}
+.header-item:nth-child(-n + 2) {
+  margin-right: 40px;
+}
+
+/* Hero */
+.hero {
+  margin-bottom: 20px;
+}
+
+.hero-container {
+  background-image: linear-gradient(var(--linegradient-header-hero));
+  padding-top: 314px;
+  padding-bottom: 60px;
+  padding-left: 160px;
+  padding-right: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+.hero-wrap {
+  width: 475px;
+  margin-right: 94px;
+  color: var(--color-second-text);
+}
+.hero-title {
+  font-family: var(--font-Forum), sans-serif;
+  font-size: 64px;
+  line-height: 1.1;
+
+  margin-bottom: 50px;
+}
+.hero-text {
+  margin-left: 50px;
+  font-family: var(--font-SegoeUI);
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.33;
+  letter-spacing: 0;
+}
+.hero-image {
+  margin-right: auto;
+}
+.hero-inner {
+  margin-top: 280px;
+  text-align: right;
+}
+.hero-inner-title {
+  color: currentColor;
+  font-size: 16px;
+  line-height: 1.28;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+.hero-inner-text {
+  color: var(--color-third-text);
+  line-height: 1.28;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+.hero-inner-price {
+  color: var(--color-price);
+  font-family: var(--font-SegoeUI), sans-serif;
+  font-style: italic;
+  line-height: 1.33;
+}
+/* services */
+.services {
+  background-image: url(../images/services.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 1440px 587px;
+  margin-bottom: 20px;
+}
+.services-container {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+.services-list {
+  display: flex;
+}
+.services-item {
+  width: 710px;
+  height: 587px;
+  padding-top: 227px;
+  align-items: center;
+}
+.services-item:first-child {
+  margin-right: 20px;
+}
+.services-text {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.28;
+  letter-spacing: 0;
+}
+.services-link {
+  margin-bottom: 23px;
+}
+.services-title {
+  font-family: var(--font-Forum);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1.1;
+  color: var(--color-primary-text);
+}
+.line {
+  width: 130px;
+  height: 1px;
+  stroke: currentColor;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* location */
+.location {
+  margin-bottom: 20px;
+}
+.location-container {
+  display: flex;
+}
+.location-adress {
+  width: 710px;
+  height: 604px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--color-second-text);
+}
+.location-inner {
+  width: 386px;
+}
+.location-inner-title {
+  font-family: var(--font-Forum);
+  font-size: 48px;
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+
+.location-inner-text {
+  font-weight: 300;
+  line-height: 1.28;
+  letter-spacing: 0;
+}
+.location-inner-adress {
+  margin-top: 60px;
+  color: rgba(255, 255, 255, 0.4);
+}
+.location-map {
+  width: 730px;
+  height: 604px;
+  background-image: url(../images/map.jpg);
+}
+/* price */
+.price {
+  margin-bottom: 20px;
+}
+
+.price-container {
+  display: flex;
+}
+.price-list-rings {
+  flex-direction: column;
+  margin-right: 20px;
+}
+.price-item-ring,
+.price-item-earring {
+  height: 400px;
+  width: 400px;
+  background-color: #ededed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.price-item-ring:first-child,
+.price-item-earring:first-child {
+  margin-bottom: 20px;
+}
+.price-ring-image {
+  width: 260px;
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+}
+.price-inner {
+  margin-left: 30px;
+
+  margin-bottom: 20px;
+}
+.price-inner-title {
+  color: var(--color-second-text);
+  font-size: 16px;
+  line-height: 1.28;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  margin-bottom: 9px;
+}
+.price-inner-text {
+  color: #757575;
+  line-height: 1.28;
+  font-weight: 300;
+  letter-spacing: 0;
+  margin-bottom: 9px;
+}
+.price-inner-price {
+  color: var(--color-price);
+  font-family: var(--font-SegoeUI), sans-serif;
+  font-style: italic;
+  line-height: 1.33;
+}
+
+.necklace {
+  width: 600px;
+  height: 820px;
+  margin-right: 20px;
+  display: flex;
+  align-items: end;
+  background-image: url(../images/photo-necklace-etoile.jpg);
+}
+.necklace .price-inner-title {
+  color: var(--color-primary-text);
+}
+.necklace .price-inner-text {
+  color: #e7e7e7;
+}
+.socials-container {
+  background-color: var(--color-second-text);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.socials-title {
+  margin-left: 162px;
+  display: block;
+  margin-bottom: 80px;
+  font-family: var(--font-Forum);
+  font-size: 48px;
+  line-height: 1.1;
+}
+.socials-slider {
+  display: flex;
+  margin-bottom: 80px;
+}
+.socials-item {
+  height: 385px;
+}
+.socials-item:not(:last-child) {
+  margin-right: 25px;
+}
+.socials-wrap {
+  display: flex;
+}
+.socials-list {
+  display: flex;
+  margin-left: 162px;
+}
+.social-link {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-color: #ffffff;
+  border-radius: 50% 50%;
+}
+.social-link:first-child {
+  margin-right: 20px;
+}
